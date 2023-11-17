@@ -26,7 +26,7 @@ const cart = {
 	},
 	print() {
 		console.log(JSON.stringify(this.items));
-		this.getTotalPrice();
+		console.log(this.getTotalPrice());
 	},
 }
 
